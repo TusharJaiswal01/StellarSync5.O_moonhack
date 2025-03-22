@@ -109,6 +109,8 @@ The system **restricts access**, monitors transactions, and **detects anomalies*
 #### 🛠️ **How It Works**
 The chatbot **understands queries**, works offline with **on-device AI**, and provides **real-time assistance** via cloud.
 
+https://github.com/user-attachments/assets/fcc205e7-f633-42b8-ac60-de1efb695736
+
 ---
 
 ### **📄 Automated Documentation & Reports**
