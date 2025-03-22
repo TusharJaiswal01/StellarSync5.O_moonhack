@@ -95,6 +95,8 @@ The system assigns **credit points** for participation, tracks engagement via le
 #### 🛠️ **How It Works**
 The system **restricts access**, monitors transactions, and **detects anomalies**, ensuring **secure resource management**.
 
+![Image](https://github.com/user-attachments/assets/18ebe15c-a07c-440a-ba7e-3d186c35b3a3)
+
 ---
 
 ### **💬 AI-Powered Multilingual Chatbot**
