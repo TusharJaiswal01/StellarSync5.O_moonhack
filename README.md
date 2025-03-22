@@ -169,6 +169,8 @@ Members use **shared digital workspaces**, track tasks, and integrate tools for 
 #### 🛠️ **How It Works**
 The system **analyzes interactions**, predicts **leadership potential**, and detects **burnout risks**.
 
+<img width="950" alt="Image" src="https://github.com/user-attachments/assets/e9ebb10b-5a95-46d4-99ad-c83e56804359" />
+
 ---
 
 ### **🎥 YOLO-Based Object Detection & ReID Classification**
