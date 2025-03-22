@@ -65,6 +65,8 @@ A centralized **AI-driven database** analyzes member participation, recommends e
 #### 🛠️ **How It Works**
 The system scans schedules for conflicts, optimizes event planning, and tracks attendance with **AI-powered facial recognition**.
 
+![Image](https://github.com/user-attachments/assets/4d12560d-ee78-49f6-a319-74e688ad9e4f)
+
 ---
 
 ### **🏆 AI-Driven Credit & Recognition System**
