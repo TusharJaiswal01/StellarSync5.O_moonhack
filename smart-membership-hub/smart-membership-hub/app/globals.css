@@ -1,0 +1,163 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+    --primary: 170 100% 50%;
+    --primary-foreground: 210 20% 98%;
+    --secondary: 300 100% 60%;
+    --secondary-foreground: 240 5.9% 10%;
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+    --accent: 270 100% 60%;
+    --accent-foreground: 240 5.9% 10%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 170 100% 50%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 220 50% 8%;
+    --foreground: 210 40% 98%;
+    --card: 220 50% 12%;
+    --card-foreground: 210 40% 98%;
+    --popover: 220 50% 8%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 170 100% 50%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 300 100% 60%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 220 50% 15%;
+    --muted-foreground: 210 40% 80%;
+    --accent: 270 100% 60%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 220 50% 18%;
+    --input: 220 50% 18%;
+    --ring: 170 100% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+.deep-blue-bg {
+  background: linear-gradient(135deg, hsl(220, 70%, 6%), hsl(240, 70%, 4%));
+  background-attachment: fixed;
+}
+
+.glass-panel {
+  background: rgba(10, 15, 30, 0.7);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(30, 50, 100, 0.3);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+}
+
+.glass-card {
+  background: rgba(20, 30, 60, 0.6);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(40, 70, 120, 0.3);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+.gradient-border {
+  position: relative;
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.gradient-border::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: 1px;
+  border-radius: var(--radius);
+  background: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--secondary)));
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}
+
+.glow-effect {
+  position: relative;
+}
+
+.glow-effect::after {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  z-index: -1;
+  background: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--secondary)));
+  filter: blur(15px);
+  opacity: 0.3;
+  border-radius: var(--radius);
+}
+
+.blue-glow {
+  box-shadow: 0 0 15px rgba(0, 100, 255, 0.5);
+}
+
+.animate-pulse-slow {
+  animation: pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.neon-text {
+  text-shadow: 0 0 5px rgba(0, 200, 255, 0.7), 0 0 10px rgba(0, 150, 255, 0.5);
+  color: white;
+}
+
+.blue-gradient-bg {
+  background: linear-gradient(135deg, rgba(20, 30, 60, 0.8), rgba(10, 20, 40, 0.8));
+}
+
+.form-card {
+  background: rgba(25, 35, 65, 0.8);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(50, 80, 150, 0.3);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
