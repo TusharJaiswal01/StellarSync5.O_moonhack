@@ -47,6 +47,8 @@ The UI employs modern web technologies to create a fluid, interactive, and engag
 #### 🛠️ **How It Works**
 A centralized **AI-driven database** analyzes member participation, recommends events, and automates renewals, ensuring a **seamless onboarding experience**.
 
+![Image](https://github.com/user-attachments/assets/ab7dd2c5-c4bb-4faf-90e2-1933a7535954)
+
 ---
 
 ### **🎭 Automated Event Management**
