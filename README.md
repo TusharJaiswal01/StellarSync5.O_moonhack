@@ -27,6 +27,8 @@ Responsive design for cross-device accessibility.
 
 The UI employs modern web technologies to create a fluid, interactive, and engaging user experience with seamless transitions and responsive layouts.
 
+![Image](https://github.com/user-attachments/assets/1d8fd2eb-3446-4da8-ad85-b96bb4c055b2)
+
 ---
 
 ## 🎯 **Features & Implementation**
