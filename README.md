@@ -145,6 +145,8 @@ The system **transcribes minutes**, generates **reports & certificates**, and **
 #### 🛠️ **How It Works**
 Members use **shared digital workspaces**, track tasks, and integrate tools for **optimized productivity**.
 
+![Image](https://github.com/user-attachments/assets/f0716011-2544-4c7a-820c-026f53745c44)
+
 ---
 
 ### **📊 Leadership & Engagement Analytics**
