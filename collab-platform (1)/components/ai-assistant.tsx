@@ -1,7 +1,7 @@
 "use client"
 
 import type React from "react"
-
+// here 
 import { useState, useRef, useEffect } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { X, Send, BrainCircuit, Sparkles, Loader2 } from "lucide-react"
