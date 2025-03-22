@@ -185,6 +185,8 @@ The system **analyzes interactions**, predicts **leadership potential**, and det
 #### 🛠️ **How It Works**
 The system allows users to select **10 YOLO models** to detect over **100 objects**, enhancing **security & tracking**.
 
+<img width="1698" alt="Image" src="https://github.com/user-attachments/assets/2361791a-bfd3-4a07-a725-fa56a215ddb9" />
+
 ---
 
 ## 🚀 **Future Impact**
